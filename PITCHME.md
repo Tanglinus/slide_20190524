@@ -6,7 +6,7 @@
 <!-- page main -->
 ---
 @snap[north-west span-100]
-#### Summary
+#### 0. Summary
 @ul[](false)
 - [Research Question] if word embeddings models trained on large, non-legal language corpora can be used for legal NLP use when no large legal language corpus is available in a specific language
 - [Hypothesis]
@@ -16,11 +16,23 @@
 @snapend
 ---
 @snap[north-east span-30]
-#### 博論との関係
+#### ex1. 博論との関係
 @snapend
 @snap[west span-100]
 @ul[](false)
 - 基準となる言語使用と
+@ulend
+@snapend
+---
+@snap[north-east span-30]
+#### ex2. 手法における課題
+@snapend
+@snap[west span-100]
+@ul[](false)
+- 異なるコーパスにおける同じ語の意味の差異を計測する既存のアプローチの問題
+  - 多言語対訳コーパス，通時的コーパスなどタスクの選択
+  - 異なるドメインであれば分散表現が異なるのが当然
+  - 多くの語の分散表現はごく僅かにしか変化しない
 @ulend
 @snapend
 ---
