@@ -8,8 +8,9 @@
 @snap[north-west span-100]
 #### Summary
 @ul[](false)
-- [Research Question] if word embeddings models trained on large, non-legal language corpora can be used for legal NLP use when no large legal language corpus is available in a specific language 
-- [RESULT] ...
+- [Research Question] if word embeddings models trained on large, non-legal language corpora can be used for legal NLP use when no large legal language corpus is available in a specific language
+- [Hypothesis]
+- [Method]
 @snapend
 ---
 @snap[north-west span-100]
@@ -20,3 +21,9 @@
 @ulend
 @snapend
 ---
+@snap[north-east span-100]
+#### レビュー
+@snapend
+@snap[west span-100]
+> Similarities should not be calculated among word embeddings models trained on different training corpora [...] it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same".
+@snapend
