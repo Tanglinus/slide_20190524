@@ -21,13 +21,11 @@
 @ulend
 @snapend
 ---
-@snap[north-east span-100]
+@snap[north-east span-30]
 #### レビュー
 @snapend
 @snap[west span-100]
-@quote[Similarities should not be calculated among word embeddings models trained on different training corpora]
-@snapend
-@snap[south-west span-100]
-@quote[it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same"]
-@snapend
+@ul[](false)
+- Similarities should not be calculated among word embeddings models trained on different training corpora]
+- it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same"
 ---
