@@ -25,5 +25,6 @@
 #### レビュー
 @snapend
 @snap[west span-100]
-> Similarities should not be calculated among word embeddings models trained on different training corpora [...] it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same".
+@quote[Similarities should not be calculated among word embeddings models trained on different training corpora]
+@quote[it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same"]
 @snapend
