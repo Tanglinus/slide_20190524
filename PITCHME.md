@@ -11,6 +11,17 @@
 - [Research Question] if word embeddings models trained on large, non-legal language corpora can be used for legal NLP use when no large legal language corpus is available in a specific language
 - [Hypothesis]
 - [Method]
+- ~~ワークショップのためのストーリー作り~~
+@ulend
+@snapend
+---
+@snap[north-east span-30]
+#### 博論との関係
+@snapend
+@snap[west span-100]
+@ul[](false)
+- 基準となる言語使用と
+@ulend
 @snapend
 ---
 @snap[north-west span-100]
@@ -26,6 +37,6 @@
 @snapend
 @snap[west span-100]
 @ul[](false)
-- Similarities should not be calculated among word embeddings models trained on different training corpora]
+- Similarities should not be calculated among word embeddings models trained on different training corpora
 - it would be necessary to calculate average similarities among legal terms separately for each training corpus and AFTER that to compare the averaged similarities calculated from the different models. I.e. are the similarity relations present within the models trained on the different training corpora "the same"
 ---
